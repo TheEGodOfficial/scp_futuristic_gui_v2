@@ -3111,7 +3111,7 @@ task.spawn(C_d5);
 local function C_db()
 	local script = G2L["db"];
 	script.Parent.MouseButton1Click:Connect(function()
-		game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(-2596, -12, 783)
+		game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = CFrame.new(-5796, -12, 783)
 	end)
 end;
 task.spawn(C_db);
